@@ -1,7 +1,7 @@
 libgit - calls
 remote_fetch: remote refspecs: refspecs opts: opts reflog_message: reflog_message
 	
-	self ffiLibrary uniqueInstance version first = 0
+	(self ffiLibrary uniqueInstance isVersionLessThan: #(1))
 		ifTrue: [
 			^ self
 				remote_fetch_v0251: remote
