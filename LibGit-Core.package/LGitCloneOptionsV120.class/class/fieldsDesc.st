@@ -16,7 +16,7 @@ fieldsDesc
 		 * The callbacks are used for reporting fetch progress, and for acquiring
 		 * credentials in the event they are needed.
 		 "
-		LGitFetchOptionsV100 fetch_opts;
+		LGitFetchOptionsV120 fetch_opts;
 
 		"
 		 * Set to zero (false) to create a standard repo, or non-zero
