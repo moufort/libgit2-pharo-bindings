@@ -2,6 +2,9 @@ accessing
 fetchOptionsStructureClass
 
 	"Find the correct class depending on the libgit version we are using"
-	self ffiLibrary uniqueInstance version first = 0
+	(self ffiLibrary uniqueInstance isVersionLessThan: #(1))
 		ifTrue: [ ^ LGitFetchOptionsV02x ].
-	^ LGitFetchOptionsV100
+	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 2))
+		ifTrue: [ ^ LGitFetchOptionsV100 ].
+		
+	^ LGitFetchOptionsV120
