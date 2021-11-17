@@ -1,4 +1,4 @@
-*libgit-core
+*LibGit-Core
 asLGitExternalString
 	| data |
 	data := ExternalData
