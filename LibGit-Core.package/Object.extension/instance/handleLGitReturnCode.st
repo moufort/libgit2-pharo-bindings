@@ -1,3 +1,3 @@
-*LibGit-Core-FFI-Handling
+*LibGit-Core
 handleLGitReturnCode
 	^ self
