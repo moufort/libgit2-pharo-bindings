@@ -1,4 +1,4 @@
 instance creation
 new
 
-	^ self shouldNotImplement 
+	^ self shouldNotImplement

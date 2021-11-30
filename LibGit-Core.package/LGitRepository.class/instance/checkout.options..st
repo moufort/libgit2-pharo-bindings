@@ -19,4 +19,3 @@ checkout: aString options: options
 		self setHeadDetached: commitish.
 		self resetHardTo: commitish object checkoutOptions: options.
 	].
-

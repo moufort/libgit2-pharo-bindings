@@ -12,4 +12,4 @@ cloneSsh: aString
 	
 	self
 		clone: aString
-		options: cloneOptions	
+		options: cloneOptions

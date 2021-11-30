@@ -17,4 +17,4 @@ revparse: aString
 			revparse_single: object
 			repo: self
 			spec: aString ].
-	^ object concreteObject	
+	^ object concreteObject

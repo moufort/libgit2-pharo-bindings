@@ -14,4 +14,3 @@ withCredentialsCallback: aBlock
 	^ self defaults
 		fetchOptions: fetchOptions;
 		yourself.
-	

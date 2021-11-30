@@ -4,4 +4,4 @@ clone: aString withCredentials: aCredentialsProvider
 	cloneOptions := self cloneOptionsStructureClass withCredentialsProvider: aCredentialsProvider.
 	self
 		clone: aString
-		options: cloneOptions	
+		options: cloneOptions

@@ -6,4 +6,3 @@ wrapBlock: aThreeArgBlock
 			value: rootPath 
 			value: (LGitTreeEntry fromHandle: entryAddress)
 			value: payload ]
-		
