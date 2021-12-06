@@ -8,4 +8,3 @@ isVersion: version lessThan: versionArray
 			ifTrue: [ ^ true ] ].
 		
 	^ false
-	

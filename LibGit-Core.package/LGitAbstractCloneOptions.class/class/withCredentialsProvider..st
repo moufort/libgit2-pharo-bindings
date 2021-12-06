@@ -8,4 +8,3 @@ withCredentialsProvider: provider
 	^ self defaults
 		fetchOptions: fetchOptions
 		yourself.
-	

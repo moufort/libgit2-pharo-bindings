@@ -5,4 +5,4 @@ initBare: aBoolean
 			repository_init: self
 			path: self repositoryReference pathString
 			is_bare: aBoolean ].
-	self autoRelease 
+	self autoRelease

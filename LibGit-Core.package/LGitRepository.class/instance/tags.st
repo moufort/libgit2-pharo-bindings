@@ -9,4 +9,3 @@ tags
 	strings := array strings.
 	array free.
 	^ strings
-	

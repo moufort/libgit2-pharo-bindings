@@ -9,4 +9,3 @@ getString: name ifPresent: presentBlock ifAbsent: absentBlock
 			ifEmpty: absentBlock
 	]
 	ensure: [ buf free ]
-

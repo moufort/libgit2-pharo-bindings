@@ -6,4 +6,3 @@ comparing
 		(self 
 			reference_cmp: self 
 			ref2: anObject) = LGitReturnCodeEnum git_ok  ]
-	

@@ -8,4 +8,4 @@ fieldsDesc
 	size_t content_len  "Number of bytes of data"
 	int64 content_offset "Offset in the original file to the content"
 	String content "Pointer to diff text, not NUL-byte terminated"
-	) 
+	)
