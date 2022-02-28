@@ -8,5 +8,6 @@ unix64LibraryName
 		'libgit2.so.1.0'
 		'libgit2.so.1.1'
 		'libgit2.so.1.2'
-		'libgit2.so.1.3' 
+		'libgit2.so.1.3'
+		'libgit2.so.1.4'
 		'libgit2.so.0.25.1')

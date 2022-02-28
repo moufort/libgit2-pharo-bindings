@@ -1,6 +1,7 @@
 lookup
 lookup: name
 	| reference |
+	
 	reference := LGitReference of: self.
 	self withReturnHandlerDo: [
 		self
