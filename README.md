@@ -1,3 +1,6 @@
-# [libgit2](http://libgit2.github.com) bindings for Pharo [![Build Status](https://travis-ci.org/pharo-vcs/libgit2-pharo-bindings.svg)](https://travis-ci.org/pharo-vcs/libgit2-pharo-bindings)
+# [libgit2](http://libgit2.github.com) bindings for Pharo
 
-The goal of this project is the development of [libgit2](http://libgit2.github.com) bindings for [Pharo](http://pharo-project.org).
+[![Unit Tests](https://github.com/pharo-vcs/libgit2-pharo-bindings/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/pharo-vcs/libgit2-pharo-bindings/actions/workflows/unit-tests.yml)
+
+The goal of this project is the development of [libgit2](http://libgit2.github.com)
+bindings for [Pharo](http://pharo-project.org).
