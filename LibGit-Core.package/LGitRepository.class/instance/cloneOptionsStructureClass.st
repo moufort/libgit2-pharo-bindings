@@ -5,6 +5,8 @@ cloneOptionsStructureClass
 	(self ffiLibrary uniqueInstance isVersionLessThan: #(1))
 		ifTrue: [ ^ LGitCloneOptionsV02x ].
 	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 2))
-		ifTrue: [ ^ LGitCloneOptionsV100 ].
+		ifTrue: [ ^ LGitCloneOptionsV100 ].	
+	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 4))
+		ifTrue: [ ^ LGitCloneOptionsV120 ].
 	
-	^ LGitCloneOptionsV120
+	^ LGitCloneOptionsV140
