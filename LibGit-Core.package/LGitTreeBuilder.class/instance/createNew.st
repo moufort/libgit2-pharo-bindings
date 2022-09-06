@@ -1,7 +1,8 @@
 operations
 createNew
+
 	self withReturnHandlerDo: [ 
-		self 
+		self
 			treebuilder_new: self
 			repo: self repository
-			source: self ffiNull handle ]
+			source: self ffiNull getHandle ]
