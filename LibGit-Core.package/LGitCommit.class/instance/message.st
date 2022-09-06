@@ -12,4 +12,4 @@ message
 	^ LGitMessageDecoder
 		decodeBytes:
 		(LGitMessageDecoder byteArrayFromBuffer: externaAddress)
-		usingByDefault: encoding
+		usingByDefault: (encoding ifNil: [ 'utf8' ])
