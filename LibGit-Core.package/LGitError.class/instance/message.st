@@ -1,5 +1,5 @@
 accessing
 message
-	^ self isNull
-		ifFalse: [ self prim_message readStringUTF8 ]
-		ifTrue: [ 'no error message set by libgit2' ]
+
+	self isNull ifTrue: [ ^ 'no error message set by libgit2' ].
+	^ LGitMessageDecoder decodeBuffer: self prim_message
