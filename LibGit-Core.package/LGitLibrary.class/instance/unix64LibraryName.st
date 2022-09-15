@@ -2,7 +2,6 @@ accessing - platform
 unix64LibraryName
 
 	^ FFIUnix64LibraryFinder findAnyLibrary: #(
-		"This name is wrong, but some versions of the VM has this library shipped with the bad name"
 		'libgit2.so.1.5'
 		'libgit2.so.1.4.4'
 		'libgit2.so.1.4'
