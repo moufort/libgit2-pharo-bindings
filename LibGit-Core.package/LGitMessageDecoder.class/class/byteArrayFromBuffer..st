@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 byteArrayFromBuffer: aBuffer
 
 	"Read the bytes  from the buffer inside a byte array until we see a NULL character"
