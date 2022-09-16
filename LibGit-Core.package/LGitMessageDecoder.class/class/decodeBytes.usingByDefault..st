@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 decodeBytes: bytes usingByDefault: encoding
 
 	"Try decoding first with the encoding libgit has detected.

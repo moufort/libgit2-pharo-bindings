@@ -1,4 +1,4 @@
-as yet unclassified
+decoding
 decodeBuffer: anExternalAddress
 
 	"Extract the buffer from the external address, then decode it"
