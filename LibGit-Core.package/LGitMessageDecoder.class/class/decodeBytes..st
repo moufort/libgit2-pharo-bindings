@@ -1,4 +1,5 @@
-accessing
+
+decoding
 decodeBytes: bytes
 
 	"Try decoding first with utf8. Otherwise, try to dynamically detect the encoding."
