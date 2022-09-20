@@ -1,4 +1,3 @@
-
 decoding
 decodeBytes: bytes usingByDefault: encoding
 
