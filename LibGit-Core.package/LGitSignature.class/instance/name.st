@@ -1,3 +1,3 @@
 accessing
 name
-	^ self prim_name readStringUTF8
+	^ self prim_name utf8StringFromCString

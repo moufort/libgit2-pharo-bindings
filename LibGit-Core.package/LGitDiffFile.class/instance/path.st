@@ -1,3 +1,3 @@
 accessing
 path
-	^ self prim_path readStringUTF8
+	^ self prim_path utf8StringFromCString

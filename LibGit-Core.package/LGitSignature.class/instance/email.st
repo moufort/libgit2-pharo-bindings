@@ -1,3 +1,3 @@
 accessing
 email
-	^ self prim_email readStringUTF8
+	^ self prim_email utf8StringFromCString

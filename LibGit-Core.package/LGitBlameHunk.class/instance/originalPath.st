@@ -1,3 +1,3 @@
 accessing
 originalPath
-	^ self prim_orig_path readStringUTF8
+	^ self prim_orig_path utf8StringFromCString

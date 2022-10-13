@@ -4,7 +4,7 @@ getString: name ifPresent: presentBlock ifAbsent: absentBlock
 	buf := LGitBuf new.
 	^ [
 		self config_get_string: name output: buf.
-		buf prim_ptr readStringUTF8
+		buf prim_ptr utf8StringFromCString
 			ifNotEmpty: presentBlock
 			ifEmpty: absentBlock
 	]
