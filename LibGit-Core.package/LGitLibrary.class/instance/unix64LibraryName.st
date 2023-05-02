@@ -2,6 +2,7 @@ accessing - platform
 unix64LibraryName
 
 	^ FFIUnix64LibraryFinder findAnyLibrary: #(
+		'libgit2.so.1.6'
 		'libgit2.so.1.5'
 		'libgit2.so.1.4.4'
 		'libgit2.so.1.4'
