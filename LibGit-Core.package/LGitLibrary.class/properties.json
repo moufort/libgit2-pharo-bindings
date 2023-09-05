@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"initialized",
-		"available"
+		"initialized"
 	],
 	"name" : "LGitLibrary",
 	"type" : "normal"
