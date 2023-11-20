@@ -1,7 +1,7 @@
 private
 loadTestData
 	| dictionary |
-	(testDataLoaded notNil and: [ testDataLoaded ]) ifTrue: [ ^ self ].
+	(testDataLoaded isNotNil and: [ testDataLoaded ]) ifTrue: [ ^ self ].
 	testDataLoaded := true.
 	(FileSystem workingDirectory / 'test_data.json') exists ifFalse: [ ^ self ].
 	
