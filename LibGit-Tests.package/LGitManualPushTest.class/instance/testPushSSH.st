@@ -20,7 +20,7 @@ testPushSSH
 		tree: tree;
 		message: 'push test';
 		parents: {head};
-		updateReference: repo master;
+		updateReference: (repo lookupBranch: 'master');
 		author: author;
 		committer: author;
 		writeCommit.
