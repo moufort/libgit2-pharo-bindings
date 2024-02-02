@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "LGitAbstractPushOptions",
 	"category" : "LibGit-Core-FFI-Structs",
-	"classinstvars" : [ ],
-	"pools" : [ ],
 	"classvars" : [
 		"OFFSET_PRIM_CALLBACKS",
 		"OFFSET_PRIM_CUSTOM_HEADERS",
@@ -13,5 +9,10 @@
 	],
 	"instvars" : [ ],
 	"name" : "LGitPushOptionsV120",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "LGitAbstractPushOptions",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "{} + TraitedClass"
 }
