@@ -17,5 +17,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classtraitcomposition" : "{} + TraitedClass"
+	"classtraitcomposition" : "{}"
 }
