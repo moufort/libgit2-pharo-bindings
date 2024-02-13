@@ -1,5 +1,4 @@
 SmalltalkCISpec {
-SmalltalkCISpec {
   #preLoading : './scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
