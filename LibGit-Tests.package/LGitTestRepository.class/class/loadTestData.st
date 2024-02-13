@@ -3,10 +3,10 @@ loadTestData
 	| dictionary |
 	(testDataLoaded isNotNil and: [ testDataLoaded ]) ifTrue: [ ^ self ].
 	testDataLoaded := true.
-	(FileSystem workingDirectory / 'test_data.json') exists ifFalse: [ ^ self ].
 	
+	(FileSystem workingDirectory / 'test_data.json') exists ifFalse: [ ^ self ].
 	(FileSystem workingDirectory / 'test_data.json') readStreamDo: [ :stream |
-		dictionary := MCFileTreeJsonParser parseStream: stream ].
+		dictionary := STON fromStream: stream ].
 	
 	(dictionary at: 'urls') keysAndValuesDo: [ :selector :url |
 		self
