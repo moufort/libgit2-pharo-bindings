@@ -4,7 +4,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'LibGit',
-      #directory : '..',
+      #directory : '.',
       #load : [ 'LibGit-Tests' ],
       #platforms : [ #pharo ]
     }
