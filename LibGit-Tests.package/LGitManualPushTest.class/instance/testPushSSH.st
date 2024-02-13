@@ -28,7 +28,9 @@ testPushSSH
 	credentials := remote class credentialsSsh.
 	credentialsCallback := LGitCredAcquireCallback
 		on: [ :cred :url :username_from_url :allowed_types :data | 
-			credentials createWith: cred.
+			credentials 
+				createWith: cred 
+				urlUsername: remote class usernameSsh.
 			0 ].
 	self
 		shouldnt: [
