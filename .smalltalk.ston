@@ -1,5 +1,5 @@
 SmalltalkCISpec {
-  #preLoading : '../scripts/preLoading.st',
+  #preLoading : './scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'LibGit',
