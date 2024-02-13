@@ -8,6 +8,7 @@ SmalltalkCISpec {
       #platforms : [ #pharo ]
     }
   ],
+  #preTesting : './scripts/preTesting.st',
   #testing : {
   	#packages : [ 
   		'System-Settings-Tests.*',
