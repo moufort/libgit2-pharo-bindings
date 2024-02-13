@@ -1,0 +1,17 @@
+SmalltalkCISpec {
+SmalltalkCISpec {
+  #preLoading : '../scripts/preLoading.st',
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'LibGit',
+      #directory : '..',
+      #load : [ 'LibGit-Tests' ],
+      #platforms : [ #pharo ]
+    }
+  ],
+  #testing : {
+  	#packages : [ 
+  		'System-Settings-Tests.*',
+  		'ReleaseTests.*' ] 
+  }  
+}
