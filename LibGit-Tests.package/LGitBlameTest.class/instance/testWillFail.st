@@ -1,4 +1,0 @@
-tests
-testWillFail
-
-	self error
