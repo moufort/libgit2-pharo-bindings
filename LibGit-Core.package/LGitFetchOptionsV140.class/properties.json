@@ -1,5 +1,9 @@
 {
+	"commentStamp" : "",
+	"super" : "LGitAbstractFetchOptions",
 	"category" : "LibGit-Core-FFI-Structs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"OFFSET_PRIM_CALLBACKS",
 		"OFFSET_PRIM_CUSTOM_HEADERS",
@@ -12,10 +16,5 @@
 	],
 	"instvars" : [ ],
 	"name" : "LGitFetchOptionsV140",
-	"commentStamp" : "",
-	"super" : "LGitAbstractFetchOptions",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classtraitcomposition" : "{}"
+	"type" : "normal"
 }
