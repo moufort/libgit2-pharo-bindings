@@ -1,11 +1,9 @@
 operations
 createWith: aStructure urlUsername: urlUsername
-
-	<todo: 'use exceptions instead of assertions'>
 	"I ignore the username that come from the url, as we are using plaintext credentials"
 
 	(self username isEmptyOrNil 
-		or: [ self passphrase isEmptyOrNil not ])
+		or: [ self passphrase isEmptyOrNil ])
 		ifTrue: [ LGitNoCredentialsProvided signal ].
 
 	self withReturnHandlerDo: [
