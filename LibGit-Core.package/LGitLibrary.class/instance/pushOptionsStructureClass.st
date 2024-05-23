@@ -8,5 +8,8 @@ pushOptionsStructureClass
 		ifTrue: [ ^ LGitPushOptionsV100 ].
 	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 4))
 		ifTrue: [ ^ LGitPushOptionsV120 ].
+	(self ffiLibrary uniqueInstance isVersionLessThan: #(1 8))
+		ifTrue: [ ^ LGitPushOptionsV140 ].
+
+	^ LGitPushOptionsV180 
 	
-	^ LGitPushOptionsV140
