@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        smalltalk: [ Pharo64-apha ]
+        smalltalk: [ Pharo64-alpha ]
         os: [ ubuntu-latest, macOS-latest ]
         ston: [ .smalltalk.ston ]
     runs-on: ${{ matrix.os }}
